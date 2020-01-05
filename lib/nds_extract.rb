@@ -26,7 +26,7 @@ def list_of_directors(source)
   array = []
   index = 0 
   while index < source.length do
-    array << source.fetch(:name)[index]
+    array << source[index].fetch(:name)
     index += 1 
   end
   p array
