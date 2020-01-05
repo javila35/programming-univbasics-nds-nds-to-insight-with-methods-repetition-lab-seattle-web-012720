@@ -29,7 +29,7 @@ def list_of_directors(source)
     array << source[index].fetch(:name)
     index += 1 
   end
-  p array
+  array
 end
 
 def total_gross(source)
