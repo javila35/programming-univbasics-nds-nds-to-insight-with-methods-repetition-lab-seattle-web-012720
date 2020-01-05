@@ -26,7 +26,7 @@ def list_of_directors(source)
   array = []
   index = 0 
   while index < source.length do
-    array << source[index]
+    array << source.fetch[index]
     index += 1 
   end
   p array
