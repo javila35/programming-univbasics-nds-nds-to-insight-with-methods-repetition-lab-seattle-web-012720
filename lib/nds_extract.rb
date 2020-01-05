@@ -49,7 +49,7 @@ while index < list_of_directors(source).length do
   total += array[index]
   index += 1
 end 
-p total 
+total 
 end
 
 
